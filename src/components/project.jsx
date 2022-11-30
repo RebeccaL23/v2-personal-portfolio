@@ -86,7 +86,7 @@ export default function Project(props)  {
           <div className="project-sidebar-bottom">
             <a target="_blank" href={props.link}>Live Site</a>
             <br></br>
-            <a target="_blank" href={props.link}>GitHub</a>
+            <a target="_blank" href={props.github}>GitHub</a>
           </div>
         </div>
 
