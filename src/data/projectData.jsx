@@ -51,10 +51,10 @@ export default [
     "github": "http://www.playtracewith.me",
     "thumbnail": PortfolioThumbnail,
     "preview": {
-      "slideOne": '../images/1800d2c-gif.gif',
-      "slideTwo": "After completing the Scrimba React beginners course, I wanted a practical way to apply my newly-learnt skills. This portfolio site is my first ever React build. It also gave me the opportunity to delve deep into understanding the CSS grid and flex system across responsiveness.",
-      "slideThree": PortfolioImage,
-      "slideFour": "Built with React, HTML, CSS / CSS Grid & Flex. Scaffolded with Vite and deployed on Netlify.",
+      "slideOne": "After completing the Scrimba React beginners course, I wanted a practical way to apply my newly-learnt skills. This portfolio site is my first ever React build. It also gave me the opportunity to delve deep into understanding the CSS grid and flex system across responsiveness.",
+      "slideTwo": PortfolioImage,
+      "slideThree": "Built with React, HTML, CSS / CSS Grid & Flex. Scaffolded with Vite and deployed on Netlify.",
+      "slideFour": "",
       "slideFive": ""
     },
     "show":false
