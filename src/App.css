@@ -455,6 +455,7 @@ p{
   .col-1{
     grid-column: 1 / 13;
     flex-direction: row;
+    margin-bottom: 130px;
   }
 
   .contact{
