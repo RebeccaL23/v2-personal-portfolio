@@ -16,7 +16,7 @@ export default [
     "project": "Trace",
     "title": "Merging the digital and real-world experience through custom scavenger hunt games",
     "link": "http://www.playtracewith.me",
-    "github": "http://www.playtracewith.me",
+    "github": "https://github.com/RebeccaL23/trace",
     "thumbnail": TraceThumbnail,
     "preview": {
       "slideOne": "Trace was created as our final project for the Le Wagon Fullstack Web Development course. Trace was conceptualised, designed and wireframed by me on Figma. It was developed along with two other members.",
@@ -48,7 +48,7 @@ export default [
     "project": "Portfolio",
     "title": "My personal porfolio (yup, this one!) showcasing recent projects",
     "link": "www.rebecca-lim.com",
-    "github": "http://www.playtracewith.me",
+    "github": "https://github.com/RebeccaL23/v2-personal-portfolio",
     "thumbnail": PortfolioThumbnail,
     "preview": {
       "slideOne": "After completing the Scrimba React beginners course, I wanted a practical way to apply my newly-learnt skills. This portfolio site is my first ever React build. It also gave me the opportunity to delve deep into understanding the CSS grid and flex system across responsiveness.",
@@ -63,8 +63,8 @@ export default [
     "id":"4",
     "project": "1800-D2C Job board",
     "title": "Job board to find the best jobs in eCommerce",
-    "link": "http://www.playtracewith.me",
-    "github": "http://www.playtracewith.me",
+    "link": "https://jobs.1800d2c.com/",
+    "github": "https://github.com/RebeccaL23/1800d2c",
     "thumbnail": d2cThumbnail,
     "preview": {
       "slideOne": d2cGif,
