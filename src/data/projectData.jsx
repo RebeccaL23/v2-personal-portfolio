@@ -47,7 +47,7 @@ export default [
     "id":"3",
     "project": "Portfolio",
     "title": "My personal porfolio (yup, this one!) showcasing recent projects",
-    "link": "www.rebecca-lim.com",
+    "link": "https://rebecca-lim.com/",
     "github": "https://github.com/RebeccaL23/v2-personal-portfolio",
     "thumbnail": PortfolioThumbnail,
     "preview": {
