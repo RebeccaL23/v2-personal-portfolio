@@ -104,7 +104,7 @@ export default function Project(props)  {
                 slides[currentIndex].id === slide.id ? 'fade' : 'slide fade'
               }
             >
-              { slide.url.includes("/src")  ? <img src={slide.url} className='photo' /> : <div className="div-h4"><h4>{slide.url}</h4></div> }
+              { slide.url.includes("/assets")  ? <img src={slide.url} className='photo' /> : <div className="div-h4"><h4>{slide.url}</h4></div> }
             </div>
             :
             <div></div>
