@@ -19,7 +19,7 @@ export default [
     "github": "https://github.com/RebeccaL23/trace",
     "thumbnail": TraceThumbnail,
     "preview": {
-      "slideOne": "Trace was created as our final project for the Le Wagon Fullstack Web Development course. Trace was conceptualised, designed and wireframed by me on Figma. It was developed along with two other members.",
+      "slideOne": "Trace was created as our final project for the Le Wagon Fullstack Web Development course. I conceptualised, designed and wireframed Trace on Figma, and developed it with two other members.",
       "slideTwo": "For usability, we designed a desktop view for the admin and game setup, and a mobile view for players to join and play games on the move.",
       "slideThree": TraceGif,
       "slideFour": TraceMobileGif,
