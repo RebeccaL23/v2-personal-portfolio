@@ -37,13 +37,13 @@ export default function Project(props)  {
   // move to the next photo
   // if we are at the end, go to the first photo
   const next = () => {
-    setCurrentIndex((currentIndex + 1) % slides.length);
+    setCurrentIndex((currentIndex + 1) % document.querySelectorAll('.fade').length);
   };
 
   // move to the previous photo
   // if we are at the beginning, go to the last photo
   const prev = () => {
-    setCurrentIndex((currentIndex - 1 + slides.length) % slides.length);
+    setCurrentIndex((currentIndex - 1 + document.querySelectorAll('.fade').length) % document.querySelectorAll('.fade').length);
   };
 
   return(
@@ -60,7 +60,7 @@ export default function Project(props)  {
 
             {/* Render dots indicator */}
 
-            <div className="indicators">
+            {/* <div className="indicators">
               <div className='dots'>
                 {slides.map((slide) => (
                     slide.url ?
@@ -80,7 +80,7 @@ export default function Project(props)  {
               <div className="pagination">
                   <p>{currentIndex + 1}/{document.querySelectorAll('.dot').length} </p>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="project-sidebar-bottom">
@@ -109,16 +109,21 @@ export default function Project(props)  {
             :
             <div></div>
           ))}
+          <div className="controls">
+            {/* Previous button */}
+            <button onClick={prev} className='prev'>
+              Previous
+            </button>
 
-          {/* Previous button */}
-          {/* <button onClick={prev} className='prev'>
-            Previous
-          </button> */}
+            <div className="pagination">
+                  <p>{currentIndex + 1}/{document.querySelectorAll('.fade').length} </p>
+              </div>
 
-          {/* Next button */}
-          {/* <button onClick={next} className='next'>
-            Next
-          </button> */}
+            {/* Next button */}
+            <button onClick={next} className='next'>
+              Next
+            </button>
+          </div>
         </div>
 
 

@@ -5,7 +5,7 @@ import Main from './components/main'
 import logo from './images/Bec-logo.png'
 import Contact from './components/contact'
 import projectData from './data/projectData'
-import Jewellery from "./images/jewellery.jpeg"
+import Jewellery from "./images/jewellery.jpg"
 import Travel from "./images/travel.jpg"
 
 function App() {
@@ -35,7 +35,7 @@ function App() {
   ))
 
   const blurStyle = {
-    filter: blur ? "blur(8px)" : ""
+    filter: blur ? "blur(4px)" : ""
   }
 
   const contactStyle = {
@@ -130,7 +130,7 @@ function App() {
                 <ul className="currently-learning">
                   <li>Digging deeper into React with Scrimba</li>
                   <li>Scratching the surface on Shopify Hydrogen Framework for our brand, <a href="https://repleat.co/" target='blank'>repleat.co</a></li>
-                  <li className="travel-hover">Taking advantage of being in the northern hemisphere and travelling </li><img className='image-hover travel' src={Travel} alt="travel" />
+                  <li className="travel-hover">Exploring and travelling the northern hemisphere </li><img className='image-hover travel' src={Travel} alt="travel" />
                   <li className="jewellery-hover">Crafting jewellery </li><img className='image-hover jewellery' src={Jewellery} alt="jewellery making" />
                 </ul>
               </div>
