@@ -93,7 +93,7 @@ export default function Project(props)  {
         <div className="project-preview">
 
         {/* Render the carousel */}
-        <div className='slider-container'>
+        <div style={{background: props.colour}} className='slider-container'>
           {slides.map((slide) => (
             slide.url ?
             <div
@@ -112,7 +112,7 @@ export default function Project(props)  {
           <div className="controls">
             {/* Previous button */}
             <button onClick={prev} className='prev'>
-              Previous
+              PREV
             </button>
 
             <div className="pagination">
@@ -121,7 +121,7 @@ export default function Project(props)  {
 
             {/* Next button */}
             <button onClick={next} className='next'>
-              Next
+              NEXT
             </button>
           </div>
         </div>

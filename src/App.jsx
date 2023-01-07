@@ -7,6 +7,7 @@ import Contact from './components/contact'
 import projectData from './data/projectData'
 import Jewellery from "./images/jewellery.jpg"
 import Travel from "./images/travel.jpg"
+import resume from "./images/resume.pdf"
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       slideFive={project.preview.slideFive}
       show={project.show}
       close={close}
+      colour={project.colour}
     />
   ))
 
@@ -39,7 +41,7 @@ function App() {
   }
 
   const contactStyle = {
-    color: contactColour ? "#fff" : "#B99230"
+    color: contactColour ? "#000" : "#fff"
   }
 
   const projectList = projects.map(project => (
@@ -70,6 +72,7 @@ function App() {
     })
 
     setContactColour(false)
+    console.log(contactColour)
   }
 
   function toggle(id) {
@@ -80,6 +83,7 @@ function App() {
     })
     console.log(id)
     setContactColour(true)
+    console.log(contactColour)
   }
 
   return (
@@ -89,8 +93,16 @@ function App() {
           {/* <h1 style={blurStyle}>Rebecca Lim</h1> */}
         <div className="col-1">
           <img style={blurStyle} className="logo" src={logo } />
-          <div styles={contactStyle} className="contact-div" style={blurStyle}>
-            <Contact />
+          <div style={blurStyle} className="contact-div">
+            <div className="contact">
+              <ul>
+                <li><a style={{color: contactColour ? "rgba(255,255,255,0.3)" : "#000"}} href="mailto:rebeccalim23@gmail.com">Email</a></li>
+                <li><a style={{color: contactColour ? "rgba(255,255,255,0.3)" : "#000"}} href={resume} target="blank">Resumé</a></li>
+                <li><a style={{color: contactColour ? "rgba(255,255,255,0.3)" : "#000"}} href="https://www.linkedin.com/in/rebeccalim23/" target="blank">LinkedIn</a></li>
+                <li><a style={{color: contactColour ? "rgba(255,255,255,0.3)" : "#000"}} href="https://github.com/RebeccaL23" target="blank">GitHub</a></li>
+                <li><a style={{color: contactColour ? "rgba(255,255,255,0.3)" : "#000"}} href="https://www.instagram.com/rebecca__lim/" target="blank">Instagram</a></li>
+              </ul>
+            </div>
           </div>
         </div>
 
