@@ -19,9 +19,9 @@ export default [
     "github": "https://github.com/RebeccaL23/trace",
     "thumbnail": TraceGif,
     "preview": {
-      "slideOne": "Trace was created as our final project for the Le Wagon Fullstack Web Development course. I conceptualised, designed and wireframed Trace on Figma, and developed it with two other members.",
-      "slideTwo": "For usability, we designed a desktop view for the admin and game setup, and a mobile view for players to join and play games on the move.",
-      "slideThree": TraceGif,
+      "slideTwo": "Trace was created as our final project for the Le Wagon Fullstack Web Development course. I conceptualised, designed and wireframed Trace on Figma, and developed it with two other members.",
+      "slideThree": "For usability, we designed a desktop view for the admin and game setup, and a mobile view for players to join and play games on the move.",
+      "slideOne": TraceGif,
       "slideFour": TraceMobileGif,
       "slideFive": "Built with Ruby on Rails, HTML, CSS, JavaScript & Stimulus, and plugs into the MapBox API and Weather API. Deployed on Heroku. "
     },
@@ -53,8 +53,8 @@ export default [
     "github": "https://github.com/RebeccaL23/v2-personal-portfolio",
     "thumbnail": PortfolioImage,
     "preview": {
-      "slideOne": "After completing the Scrimba React beginners course, I wanted a practical way to apply my newly-learnt skills. This portfolio site is my first ever React build. It also gave me the opportunity to delve deep into understanding the CSS grid and flex system across responsiveness.",
-      "slideTwo": PortfolioImage,
+      "slideTwo": "After completing the Scrimba React beginners course, I wanted a practical way to apply my newly-learnt skills. This portfolio site is my first ever React build. It also gave me the opportunity to delve deep into understanding the CSS grid and flex system across responsiveness.",
+      "slideOne": PortfolioImage,
       "slideThree": "Built with React, HTML, CSS / CSS Grid & Flex. Scaffolded with Vite and deployed on Netlify.",
       "slideFour": "",
       "slideFive": ""
