@@ -126,7 +126,7 @@ function App() {
                     I'm a Malaysian-Australian fullstack developer based in London.<br></br><br></br>
                     I was previously the Manager of Business Systems at <a href="https://www.bluerockdigital.com.au/" target='blank'>BlueRock Digital</a>,
                     a Melbourne-based digital consultancy part of the <a href="https://www.bluerock.com.au/" target='blank'>BlueRock</a> group.
-                    That experience gave me an holistic view and appreciation of the digital space;
+                    That experience gave me a holistic view and appreciation of the digital space;
                     I had the opportunity to plan, design and manage the development of digital solutions for clients across various industries.
                   </p>
                   <br></br>
