@@ -1,5 +1,5 @@
 import React from "react"
-import './App.css'
+import styles from './App.css'
 import Project from './components/project'
 import Main from './components/main'
 import logo from './images/Bec-logo.png'
@@ -72,7 +72,6 @@ function App() {
     })
 
     setContactColour(false)
-    console.log(contactColour)
   }
 
   function toggle(id) {
@@ -81,9 +80,8 @@ function App() {
         return project.id === id ? {...project, show: !project.show} : project
       })
     })
-    console.log(id)
+
     setContactColour(true)
-    console.log(contactColour)
   }
 
   return (
@@ -123,7 +121,7 @@ function App() {
                 <h2>About</h2>
                 <div>
                   <p>
-                    I'm a Malaysian-Australian fullstack developer based in London.<br></br><br></br>
+                    I'm Rebecca Lim – a Malaysian-Australian fullstack developer based in London.<br></br><br></br>
                     I was previously the Manager of Business Systems at <a href="https://www.bluerockdigital.com.au/" target='blank'>BlueRock Digital</a>,
                     a Melbourne-based digital consultancy part of the <a href="https://www.bluerock.com.au/" target='blank'>BlueRock</a> group.
                     That experience gave me a holistic view and appreciation of the digital space;
