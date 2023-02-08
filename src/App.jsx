@@ -121,7 +121,7 @@ function App() {
                 <h2>About</h2>
                 <div>
                   <p>
-                    I'm Rebecca Lim – a Malaysian-Australian fullstack developer based in London.<br></br><br></br>
+                    I'm Rebecca Lim–a Malaysian-Australian fullstack developer based in London.<br></br><br></br>
                     I was previously the Manager of Business Systems at <a href="https://www.bluerockdigital.com.au/" target='blank'>BlueRock Digital</a>,
                     a Melbourne-based digital consultancy part of the <a href="https://www.bluerock.com.au/" target='blank'>BlueRock</a> group.
                     That experience gave me a holistic view and appreciation of the digital space;
