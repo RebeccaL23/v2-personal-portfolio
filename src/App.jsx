@@ -122,14 +122,14 @@ function App() {
                 <div>
                   <p>
                     I'm Rebecca Lim–a Malaysian-Australian fullstack developer based in London.<br></br><br></br>
-                    I was previously the Manager of Business Systems at <a href="https://www.bluerockdigital.com.au/" target='blank'>BlueRock Digital</a>,
+                    I was previously the Manager of Business Systems at BlueRock Digital,
                     a Melbourne-based digital consultancy part of the <a href="https://www.bluerock.com.au/" target='blank'>BlueRock</a> group.
                     That experience gave me a holistic view and appreciation of the digital space;
                     I had the opportunity to plan, design and manage the development of digital solutions for clients across various industries.
                   </p>
                   <br></br>
                   <p>
-                    I realised that the missing puzzle piece for me was getting hands-on and actually building the solution,
+                    I realised that the missing puzzle piece for me was getting hands-on with building the solution,
                     so I pivoted slightly and completed the intensive web development course at Le Wagon in 2022.
                     I am now on the hunt for developer roles.
                   </p>
