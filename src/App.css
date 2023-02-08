@@ -210,7 +210,7 @@ p{
   display: flex;
   flex-direction: column;
   height: 40%;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .project-sidebar{
@@ -245,7 +245,7 @@ p{
 
 .close{
   cursor: pointer;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
   width: 16px;
 }
 
